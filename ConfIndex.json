@@ -1,0 +1,32 @@
+[
+    {
+        "Conference Name": "Scripting",
+        "Speaker Name": "manoj",
+        "email": "manoj@gmail.com",
+        "Capacity": 20
+    },
+    {
+        "Conference Name": "Linux",
+        "Speaker Name": "Mary Jane",
+        "email": "mj24@gmail.com",
+        "Capacity": 20
+    },
+    {
+        "Conference Name": "Red Teaming",
+        "Speaker Name": "Prof X",
+        "email": "Profx@gmail.com",
+        "Capacity": 10
+    },
+    {
+        "Conference Name": "Blue Teaming",
+        "Speaker Name": "Prof Y",
+        "email": "Profy@gmail.com",
+        "Capacity": 10
+    },
+    {
+        "Conference Name": "General Programming",
+        "Speaker Name": "Prof Z",
+        "email": "Profz@gmail.com",
+        "Capacity": 10
+    }
+]
