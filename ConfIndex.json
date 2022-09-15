@@ -1,128 +1,237 @@
 [
     {
-        "Conference Name": "Learn C++",
-        "Speaker Name": "Prof Groot",
-        "email": "grooty@gmail.com",
-        "Capacity": 20,
-        "Location": "Remote", 
-        "Date":["October 3, 2022", "October 4, 2022", "October 5, 2022"],   
-        "Time":["8:00 a.m. CST", "12:00 p.m. CST", "3:00 p.m. CST"], 
-        "Track":["Introduction to Computing", "Computer Languages"] 
-    },
-
-    {   
-        "Conference Name": "Learn Linux",
-        "Speaker Name": "Mary Jane",
-        "email": "mj24@gmail.com",
-        "Capacity": 30,
-        "Location": "Remote",  
-        "Date":["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time":["9:00 a.m. CST", "11:00 a.m. CST", "2:00 p.m. CST"],
-        "Track": ["Introduction to Computing", "Computer Languages"]
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"Learn HTML",
+        "SpeakerName":"Prof Groot",
+        "Time1":"8:00 a.m. CST",
+        "Date": "October 3, 2022",
+        "Location1":"Remote",
+        "Location2":"",
+        "Capacity": 10
     },
 
     {
-        "Conference Name": "Learn C#",
-        "Speaker Name": "Prof Smartdude",
-        "email": "ProfSmart@gmail.com",
-        "Capacity": 30,
-        "Location": "Remote", 
-        "Date":["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time":["10:00 a.m. CST", "1:00 p.m. CST", "4:00 p.m. CST"],
-        "Track": ["Introduction to Computing", "Computer Languages"] 
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"Learn HTML",
+        "SpeakerName":"Prof Groot",
+        "Time2":"12:00 p.m. CST", 
+        "Date": "October 3, 2022",
+        "Location1":"Remote",
+        "Location2":"",
+        "Capacity": 10
     },
 
     {
-        "Conference Name": "Learn Python",
-        "Speaker Name": "Prof BigBrain",
-        "email": "ProfBrain@gmail.com",
-        "Capacity": 10,
-        "Location": "Chicago",
-        "Date":["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time":["8:00 a.m. CST", "12:00 p.m. CST", "3:00 p.m. CST"],
-        "Track": ["Introduction to Computing", "Computer Languages"]  
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"Learn HTML",
+        "SpeakerName":"Prof Groot",
+        "Time3":"3:00 p.m. CST",
+        "Date": "October 3, 2022",
+        "Location1":"Remote",
+        "Location2":"",
+        "Capacity": 10
+    },
+    
+
+    {
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"Learn CSS",
+        "SpeakerName":"Mary Jane",
+        "Time1":"9:00 a.m. CST",
+        "Date": "October 3, 2022",
+        "Location1":"Austin",
+        "Location2":"",
+        "Capacity": 10
     },
 
     {
-        "Conference Name": "General Programming",
-        "Speaker Name": "Prof Buzzkill",
-        "email": "Buzzzkill@gmail.com",
-        "Capacity": 10,
-        "Location": "Chicago",
-        "Date":["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time":["9:00 a.m. CST", "11:00 a.m. CST", "2:00 p.m. CST"],
-        "Track":  ["Introduction to Computing", "Computer Languages"] 
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"Learn CSS",
+        "SpeakerName":"Mary Jane",
+        "Time2":"11:00 a.m. CST",
+        "Date": "October 3, 2022",
+        "Location1":"Austin",
+        "Location2":"",
+        "Capacity": 10
     },
 
     {
-        "Conference Name": "GitHub and You",
-        "Speaker Name": "Jim Beam",
-        "email":"Jbeam@outlook.com",
-        "Capacity": 10,
-        "Location": "Chicago", 
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"Learn CSS",
+        "SpeakerName":"Mary Jane",
+        "Time3":"2:00 p.m. CST",
+        "Date": "October 3, 2022",
+        "Location1":"a",
+        "Location2":"",
+        "Capacity": 10
+    },
+ 
+    {
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"Learn JavaScript",
+        "SpeakerName":"Prof Smartdude",
+        "Time1":"10:00 a.m. CST", 
+        "Date": "October 3, 2022",
+        "Location1":"Chicago",
+        "Location2":"",
+        "Capacity": 10
+    },
+ 
+    {
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"Learn JavaScript",
+        "SpeakerName":"Prof Smartdude",
+        "Time2":"1:00 p.m. CST",
+        "Date": "October 3, 2022",
+        "Location1":"Chicago",
+        "Location2":"",
+        "Capacity": 10
+    },
+ 
+    {
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"Learn JavaScript",
+        "SpeakerName":"Prof Smartdude",
+        "Time3":"4:00 p.m. CST",
+        "Date": "October 3, 2022",
+        "Location1":"Chicago",
+        "Location2":"",
+        "Capacity": 10
+    },
+
+    {
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"Learn BootStrap",
+        "SpeakerName":"Prof BigBrain",
+        "Time1":"8:00 a.m. CST",
+        "Date": "October 3, 2022",
+        "Location1":"Chicago",
+        "Location2":"",
+        "Capacity": 10
+    },
+
+    {
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"Learn BootStrap",
+        "SpeakerName":"Prof BigBrain",
+        "Time2":"12:00 p.m. CST", 
+        "Date": "October 3, 2022",
+        "Location1":"Chicago",
+        "Location2":"",
+        "Capacity": 10
+    },
+
+    {
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"Learn BootStrap",
+        "SpeakerName":"Prof BigBrain",
+        "Time3":"2:00 p.m. CST", 
+        "Date": "October 3, 2022",
+        "Location1":"Chicago",
+        "Location2":"",
+        "Capacity": 10
+    },
+
+    {
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"GitHub and You",
+        "SpeakerName":"Jim Beam",
+        "Time1":"10:00 a.m. CST", 
+        "Date": "October 3, 2022",
+        "Location1":"Austin",
         "Location2":"Remote",
-        "Date":["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time":["10:00 a.m. CST", "1:00 p.m. CST", "4:00 p.m. CST"],
-        "Track":["Web Design"]  
+        "Capacity": 10
     },
 
     {
-        "Conference Name": "From Scrum to Fantastic",
-        "Speaker Name": "Stanley Kubrick",
-        "email":"skubrick@outlook.com",
-        "Capacity": 10,
-        "Location": "Chicago", 
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"GitHub and You",
+        "SpeakerName":"Jim Beam",
+        "Time2":"1:00 p.m. CST",
+        "Date": "October 3, 2022",
+        "Location1":"Austin",
         "Location2":"Remote",
-        "Date":["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time":["8:00 a.m. CST", "12:00 p.m. CST", "3:00 p.m. CST"],
-        "Track":["Project Management"] 
+        "Capacity": 10
     },
 
     {
-        "Conference Name": "The Only Thing Missing Is CSS",
-        "Speaker Name": "Prof Query",
-        "email":"Query@outlook.com",
-        "Capacity": 10,
-        "Location": "Austin",
-        "Date":["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time":["9:00 a.m. CST", "11:00 a.m. CST", "2:00 p.m. CST"],
-        "Track":["Web Design"]   
-    },
-
-    {
-        "Conference Name": "Be A Winner At The Game of Life",
-        "Speaker Name": "Dr. Feelgood",
-        "email":"feelgood@outlook.com",
-        "Capacity": 10,
-        "Location":  "Austin",
-        "Date":["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time":["10:00 a.m. CST", "1:00 p.m. CST", "4:00 p.m. CST"],
-        "Track":["Project Management", "Professional Development"]  
-
-    },
-
-    {
-        "Conference Name": "What can W3Schools Do For You?",
-        "Speaker Name": "Dr.Questions",
-        "email":"question@outlook.com",
-        "Capacity": 10,
-        "Location": "Austin", 
+        "ConferenceTrack":"Web Design and Development",
+        "ConferenceSession":"GitHub and You",
+        "SpeakerName":"Jim Beam",
+        "Time3": "4:00 p.m. CST",
+        "Date": "October 3, 2022",
+        "Location1":"Austin",
         "Location2":"Remote",
-        "Date":["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time":["9:00 a.m. CST", "11:00 p.m. CST", "2:00 p.m. CST"],
-        "Track":["Introduction to Computing", "Computer Languages"]  
-
+        "Capacity": 10
+    },
+   
+    {
+        "ConferenceTrack":"Professional Development",
+        "ConferenceSession":"Be A Winner At The Game of Life",
+        "SpeakerName":"Dr. Feelgood",
+        "Time3":"10:00 a.m. CST", 
+        "Date": "October 3, 2022",
+        "Location1": "Austin",
+        "Location2":"",
+        "Capacity": 10
+    },
+ 
+    {
+        "ConferenceTrack":"Professional Development",
+        "ConferenceSession":"Be A Winner At The Game of Life",
+        "SpeakerName":"Dr. Feelgood",
+        "Time3":"1:00 p.m. CST",
+        "Date": "October 3, 2022",
+        "Location1": "Austin",
+        "Location2":"",
+        "Capacity": 10
+    },
+ 
+    {
+        "ConferenceTrack":"Professional Development",
+        "ConferenceSession":"Be A Winner At The Game of Life",
+        "SpeakerName":"Dr. Feelgood",
+        "Time3":"4:00 p.m. CST",
+        "Date": "October 3, 2022",
+        "Location1": "Austin",
+        "Location2":"",
+        "Capacity": 10
+    },
+ 
+    {
+        "ConferenceTrack":"Professional Development",
+        "ConferenceSession":"You're Hired! Now What?",
+        "SpeakerName":"Dr. Pepper",
+        "Time1":"9:00 a.m. CST", 
+        "Date": "October 3, 2022",
+        "Location1":"Chicago",
+        "Location2":"",
+        "Capacity": 10
+    },
+ 
+    {
+        "ConferenceTrack":"Professional Development",
+        "ConferenceSession":"You're Hired! Now What?",
+        "SpeakerName":"Dr. Pepper",
+        "Time2":"11:00 p.m. CST", 
+        "Date": "October 3, 2022",
+        "Location1":"Chicago",
+        "Location2":"",
+        "Capacity": 10
     },
 
     {
-        "Conference Name": "You're Hired! Now What?",
-        "Speaker Name": "Dr. Feelgood",
-        "email":"feelgood@outlook.com",
-        "Capacity": 10,
-        "Location": ["Austin", "Remote"],
-        "Date":["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time":["8:00 a.m. CST", "12:00 p.m. CST", "3:00 p.m. CST"],
-        "Track":["Professional Development"]  
-
+        "ConferenceTrack":"Professional Development",
+        "ConferenceSession":"You're Hired! Now What?",
+        "SpeakerName":"Dr. Pepper",
+        "Time3":"4:00 p.m. CST",
+        "Date": "October 3, 2022",
+        "Location1":"Chicago",
+        "Location2":"",
+        "Capacity": 10
     }
 ]
+ 
+
+
+  
