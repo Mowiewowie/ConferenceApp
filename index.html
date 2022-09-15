@@ -11,7 +11,7 @@
   <title>CONTOSOApp</title>
 </head>
 
-<body>
+<body onload="StoreInitialData()">
   <main>
     <div class="container py-4">
       <header class="pb-3 mb-4 border-bottom">
@@ -63,7 +63,7 @@
       <div class="row align-items-md-stretch">
         <div class="col-md-6">
           <div class="h-100 p-5 text-bg-dark rounded-3">
-            <h2>Speakers</h2>
+            <h2>Rooms</h2>
             <button onclick="Speakers()">Show Speakers</button>
             <div id="showList"></div>
             <button class="btn btn-outline-light" type="button">Example button</button>
