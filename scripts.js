@@ -2,9 +2,9 @@ const database =
 [
          {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"Learn HTML",
-            "SpeakerName":"Prof Groot",
-            "Time1":"8:00 a.m. CST",
+            "ConferenceName":"Learn HTML",
+            "Speaker Name":"Prof Groot",
+            "Time":"8:00 a.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Remote",
             "Location2":"",
@@ -13,9 +13,9 @@ const database =
     
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"Learn HTML",
-            "SpeakerName":"Prof Groot",
-            "Time2":"12:00 p.m. CST", 
+            "ConferenceName":"Learn HTML",
+            "Speaker Name":"Prof Groot",
+            "Time":"12:00 p.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Remote",
             "Location2":"",
@@ -24,9 +24,9 @@ const database =
     
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"Learn HTML",
-            "SpeakerName":"Prof Groot",
-            "Time3":"3:00 p.m. CST",
+            "ConferenceName":"Learn HTML",
+            "Speaker Name":"Prof Groot",
+            "Time":"3:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Remote",
             "Location2":"",
@@ -36,9 +36,9 @@ const database =
     
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"Learn CSS",
-            "SpeakerName":"Mary Jane",
-            "Time1":"9:00 a.m. CST",
+            "ConferenceName":"Learn CSS",
+            "Speaker Name":"Mary Jane",
+            "Time":"9:00 a.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Austin",
             "Location2":"",
@@ -47,9 +47,9 @@ const database =
     
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"Learn CSS",
-            "SpeakerName":"Mary Jane",
-            "Time2":"11:00 a.m. CST",
+            "ConferenceName":"Learn CSS",
+            "Speaker Name":"Mary Jane",
+            "Time":"11:00 a.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Austin",
             "Location2":"",
@@ -58,9 +58,9 @@ const database =
     
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"Learn CSS",
-            "SpeakerName":"Mary Jane",
-            "Time3":"2:00 p.m. CST",
+            "ConferenceName":"Learn CSS",
+            "Speaker Name":"Mary Jane",
+            "Time":"2:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"a",
             "Location2":"",
@@ -69,9 +69,9 @@ const database =
      
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"Learn JavaScript",
-            "SpeakerName":"Prof Smartdude",
-            "Time1":"10:00 a.m. CST", 
+            "ConferenceName":"Learn JavaScript",
+            "Speaker Name":"Prof Smartdude",
+            "Time":"10:00 a.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
@@ -80,9 +80,9 @@ const database =
      
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"Learn JavaScript",
-            "SpeakerName":"Prof Smartdude",
-            "Time2":"1:00 p.m. CST",
+            "ConferenceName":"Learn JavaScript",
+            "Speaker Name":"Prof Smartdude",
+            "Time":"1:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
@@ -91,9 +91,9 @@ const database =
      
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"Learn JavaScript",
-            "SpeakerName":"Prof Smartdude",
-            "Time3":"4:00 p.m. CST",
+            "ConferenceName":"Learn JavaScript",
+            "Speaker Name":"Prof Smartdude",
+            "Time":"4:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
@@ -102,9 +102,9 @@ const database =
     
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"Learn BootStrap",
-            "SpeakerName":"Prof BigBrain",
-            "Time1":"8:00 a.m. CST",
+            "ConferenceName":"Learn BootStrap",
+            "Speaker Name":"Prof BigBrain",
+            "Time":"8:00 a.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
@@ -113,9 +113,9 @@ const database =
     
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"Learn BootStrap",
-            "SpeakerName":"Prof BigBrain",
-            "Time2":"12:00 p.m. CST", 
+            "ConferenceName":"Learn BootStrap",
+            "Speaker Name":"Prof BigBrain",
+            "Time":"12:00 p.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
@@ -124,9 +124,9 @@ const database =
     
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"Learn BootStrap",
-            "SpeakerName":"Prof BigBrain",
-            "Time3":"2:00 p.m. CST", 
+            "ConferenceName":"Learn BootStrap",
+            "Speaker Name":"Prof BigBrain",
+            "Time":"2:00 p.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
@@ -135,9 +135,9 @@ const database =
     
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"GitHub and You",
-            "SpeakerName":"Jim Beam",
-            "Time1":"10:00 a.m. CST", 
+            "ConferenceName":"GitHub and You",
+            "Speaker Name":"Jim Beam",
+            "Time":"10:00 a.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Austin",
             "Location2":"Remote",
@@ -146,9 +146,9 @@ const database =
     
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"GitHub and You",
-            "SpeakerName":"Jim Beam",
-            "Time2":"1:00 p.m. CST",
+            "ConferenceName":"GitHub and You",
+            "Speaker Name":"Jim Beam",
+            "Time":"1:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Austin",
             "Location2":"Remote",
@@ -157,9 +157,9 @@ const database =
     
         {
             "ConferenceTrack":"Web Design and Development",
-            "ConferenceSession":"GitHub and You",
-            "SpeakerName":"Jim Beam",
-            "Time3": "4:00 p.m. CST",
+            "ConferenceName":"GitHub and You",
+            "Speaker Name":"Jim Beam",
+            "Time": "4:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Austin",
             "Location2":"Remote",
@@ -168,9 +168,9 @@ const database =
        
         {
             "ConferenceTrack":"Professional Development",
-            "ConferenceSession":"Be A Winner At The Game of Life",
-            "SpeakerName":"Dr. Feelgood",
-            "Time3":"10:00 a.m. CST", 
+            "ConferenceName":"Be A Winner At The Game of Life",
+            "Speaker Name":"Dr. Feelgood",
+            "Time":"10:00 a.m. CST", 
             "Date": "October 3, 2022",
             "Location1": "Austin",
             "Location2":"",
@@ -179,9 +179,9 @@ const database =
      
         {
             "ConferenceTrack":"Professional Development",
-            "ConferenceSession":"Be A Winner At The Game of Life",
-            "SpeakerName":"Dr. Feelgood",
-            "Time3":"1:00 p.m. CST",
+            "ConferenceName":"Be A Winner At The Game of Life",
+            "Speaker Name":"Dr. Feelgood",
+            "Time":"1:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1": "Austin",
             "Location2":"",
@@ -190,9 +190,9 @@ const database =
      
         {
             "ConferenceTrack":"Professional Development",
-            "ConferenceSession":"Be A Winner At The Game of Life",
-            "SpeakerName":"Dr. Feelgood",
-            "Time3":"4:00 p.m. CST",
+            "ConferenceName":"Be A Winner At The Game of Life",
+            "Speaker Name":"Dr. Feelgood",
+            "Time":"4:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1": "Austin",
             "Location2":"",
@@ -201,9 +201,9 @@ const database =
      
         {
             "ConferenceTrack":"Professional Development",
-            "ConferenceSession":"You're Hired! Now What?",
-            "SpeakerName":"Dr. Pepper",
-            "Time1":"9:00 a.m. CST", 
+            "ConferenceName":"You're Hired! Now What?",
+            "Speaker Name":"Dr. Pepper",
+            "Time":"9:00 a.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
@@ -212,9 +212,9 @@ const database =
      
         {
             "ConferenceTrack":"Professional Development",
-            "ConferenceSession":"You're Hired! Now What?",
-            "SpeakerName":"Dr. Pepper",
-            "Time2":"11:00 p.m. CST", 
+            "ConferenceName":"You're Hired! Now What?",
+            "Speaker Name":"Dr. Pepper",
+            "Time":"11:00 p.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
@@ -223,9 +223,9 @@ const database =
     
         {
             "ConferenceTrack":"Professional Development",
-            "ConferenceSession":"You're Hired! Now What?",
-            "SpeakerName":"Dr. Pepper",
-            "Time3":"4:00 p.m. CST",
+            "ConferenceName":"You're Hired! Now What?",
+            "Speaker Name":"Dr. Pepper",
+            "Time":"4:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
@@ -246,7 +246,7 @@ function Speakers() {
     let mainContainer = document.getElementById("showList")
     database.forEach((item) => {
         const whatever = document.createElement("div")
-        whatever.innerHTML = item["SpeakerName"]
+        whatever.innerHTML = item["Speaker Name"]
         mainContainer.appendChild(whatever)
     })
 }
