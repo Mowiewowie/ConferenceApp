@@ -1,131 +1,238 @@
-const database = [
-    {
-        "ConferenceName": "Learn C++",
-        "SpeakerName": "Prof Groot",
-        "email": "grooty@gmail.com",
-        "Capacity": 20,
-        "Location": "Remote",
-        "Date": ["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time": ["8:00 a.m. CST", "12:00 p.m. CST", "3:00 p.m. CST"],
-        "Track": ["Introduction to Computing", "Computer Languages"]
-    },
-
-    {
-        "ConferenceName": "Learn Linux",
-        "SpeakerName": "Mary Jane",
-        "email": "mj24@gmail.com",
-        "Capacity": 30,
-        "Location": "Remote",
-        "Date": ["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time": ["9:00 a.m. CST", "11:00 a.m. CST", "2:00 p.m. CST"],
-        "Track": ["Introduction to Computing", "Computer Languages"]
-    },
-
-    {
-        "ConferenceName": "Learn C#",
-        "SpeakerName": "Prof Smartdude",
-        "email": "ProfSmart@gmail.com",
-        "Capacity": 30,
-        "Location": "Remote",
-        "Date": ["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time": ["10:00 a.m. CST", "1:00 p.m. CST", "4:00 p.m. CST"],
-        "Track": ["Introduction to Computing", "Computer Languages"]
-    },
-
-    {
-        "ConferenceName": "Learn Python",
-        "SpeakerName": "Prof BigBrain",
-        "email": "ProfBrain@gmail.com",
-        "Capacity": 10,
-        "Location": "Chicago",
-        "Date": ["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time": ["8:00 a.m. CST", "12:00 p.m. CST", "3:00 p.m. CST"],
-        "Track": ["Introduction to Computing", "Computer Languages"]
-    },
-
-    {
-        "ConferenceName": "General Programming",
-        "SpeakerName": "Prof Buzzkill",
-        "email": "Buzzzkill@gmail.com",
-        "Capacity": 10,
-        "Location": "Chicago",
-        "Date": ["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time": ["9:00 a.m. CST", "11:00 a.m. CST", "2:00 p.m. CST"],
-        "Track": ["Introduction to Computing", "Computer Languages"]
-    },
-
-    {
-        "ConferenceName": "GitHub and You",
-        "SpeakerName": "Jim Beam",
-        "email": "Jbeam@outlook.com",
-        "Capacity": 10,
-        "Location": "Chicago",
-        "Location2": "Remote",
-        "Date": ["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time": ["10:00 a.m. CST", "1:00 p.m. CST", "4:00 p.m. CST"],
-        "Track": ["Web Design"]
-    },
-
-    {
-        "ConferenceName": "From Scrum to Fantastic",
-        "SpeakerName": "Stanley Kubrick",
-        "email": "skubrick@outlook.com",
-        "Capacity": 10,
-        "Location": "Chicago",
-        "Location2": "Remote",
-        "Date": ["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time": ["8:00 a.m. CST", "12:00 p.m. CST", "3:00 p.m. CST"],
-        "Track": ["Project Management"]
-    },
-
-    {
-        "ConferenceName": "The Only Thing Missing Is CSS",
-        "SpeakerName": "Prof Query",
-        "email": "Query@outlook.com",
-        "Capacity": 10,
-        "Location": "Austin",
-        "Date": ["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time": ["9:00 a.m. CST", "11:00 a.m. CST", "2:00 p.m. CST"],
-        "Track": ["Web Design"]
-    },
-
-    {
-        "ConferenceName": "Be A Winner At The Game of Life",
-        "SpeakerName": "Dr. Feelgood",
-        "email": "feelgood@outlook.com",
-        "Capacity": 10,
-        "Location": "Austin",
-        "Date": ["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time": ["10:00 a.m. CST", "1:00 p.m. CST", "4:00 p.m. CST"],
-        "Track": ["Project Management", "Professional Development"]
-
-    },
-
-    {
-        "ConferenceName": "What can W3Schools Do For You?",
-        "SpeakerName": "Dr.Questions",
-        "email": "question@outlook.com",
-        "Capacity": 10,
-        "Location": "Austin",
-        "Location2": "Remote",
-        "Date": ["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time": ["9:00 a.m. CST", "11:00 p.m. CST", "2:00 p.m. CST"],
-        "Track": ["Introduction to Computing", "Computer Languages"]
-
-    },
-
-    {
-        "ConferenceName": "You're Hired! Now What?",
-        "SpeakerName": "Dr. Feelgood",
-        "email": "feelgood@outlook.com",
-        "Capacity": 10,
-        "Location": ["Austin", "Remote"],
-        "Date": ["October 3, 2022", "October 4, 2022", "October 5, 2022"],
-        "Time": ["8:00 a.m. CST", "12:00 p.m. CST", "3:00 p.m. CST"],
-        "Track": ["Professional Development"]
-
-    }
+const database =
+[
+         {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"Learn HTML",
+            "Speaker Name":"Prof Groot",
+            "Time1":"8:00 a.m. CST",
+            "Date": "October 3, 2022",
+            "Location1":"Remote",
+            "Location2":"",
+            "Capacity": 10
+        },
+    
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"Learn HTML",
+            "Speaker Name":"Prof Groot",
+            "Time2":"12:00 p.m. CST", 
+            "Date": "October 3, 2022",
+            "Location1":"Remote",
+            "Location2":"",
+            "Capacity": 10
+        },
+    
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"Learn HTML",
+            "Speaker Name":"Prof Groot",
+            "Time3":"3:00 p.m. CST",
+            "Date": "October 3, 2022",
+            "Location1":"Remote",
+            "Location2":"",
+            "Capacity": 10
+        },
+        
+    
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"Learn CSS",
+            "Speaker Name":"Mary Jane",
+            "Time1":"9:00 a.m. CST",
+            "Date": "October 3, 2022",
+            "Location1":"Austin",
+            "Location2":"",
+            "Capacity": 10
+        },
+    
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"Learn CSS",
+            "Speaker Name":"Mary Jane",
+            "Time2":"11:00 a.m. CST",
+            "Date": "October 3, 2022",
+            "Location1":"Austin",
+            "Location2":"",
+            "Capacity": 10
+        },
+    
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"Learn CSS",
+            "Speaker Name":"Mary Jane",
+            "Time3":"2:00 p.m. CST",
+            "Date": "October 3, 2022",
+            "Location1":"a",
+            "Location2":"",
+            "Capacity": 10
+        },
+     
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"Learn JavaScript",
+            "Speaker Name":"Prof Smartdude",
+            "Time1":"10:00 a.m. CST", 
+            "Date": "October 3, 2022",
+            "Location1":"Chicago",
+            "Location2":"",
+            "Capacity": 10
+        },
+     
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"Learn JavaScript",
+            "Speaker Name":"Prof Smartdude",
+            "Time2":"1:00 p.m. CST",
+            "Date": "October 3, 2022",
+            "Location1":"Chicago",
+            "Location2":"",
+            "Capacity": 10
+        },
+     
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"Learn JavaScript",
+            "Speaker Name":"Prof Smartdude",
+            "Time3":"4:00 p.m. CST",
+            "Date": "October 3, 2022",
+            "Location1":"Chicago",
+            "Location2":"",
+            "Capacity": 10
+        },
+    
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"Learn BootStrap",
+            "Speaker Name":"Prof BigBrain",
+            "Time1":"8:00 a.m. CST",
+            "Date": "October 3, 2022",
+            "Location1":"Chicago",
+            "Location2":"",
+            "Capacity": 10
+        },
+    
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"Learn BootStrap",
+            "Speaker Name":"Prof BigBrain",
+            "Time2":"12:00 p.m. CST", 
+            "Date": "October 3, 2022",
+            "Location1":"Chicago",
+            "Location2":"",
+            "Capacity": 10
+        },
+    
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"Learn BootStrap",
+            "Speaker Name":"Prof BigBrain",
+            "Time3":"2:00 p.m. CST", 
+            "Date": "October 3, 2022",
+            "Location1":"Chicago",
+            "Location2":"",
+            "Capacity": 10
+        },
+    
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"GitHub and You",
+            "Speaker Name":"Jim Beam",
+            "Time1":"10:00 a.m. CST", 
+            "Date": "October 3, 2022",
+            "Location1":"Austin",
+            "Location2":"Remote",
+            "Capacity": 10
+        },
+    
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"GitHub and You",
+            "Speaker Name":"Jim Beam",
+            "Time2":"1:00 p.m. CST",
+            "Date": "October 3, 2022",
+            "Location1":"Austin",
+            "Location2":"Remote",
+            "Capacity": 10
+        },
+    
+        {
+            "ConferenceTrack":"Web Design and Development",
+            "ConferenceSession":"GitHub and You",
+            "Speaker Name":"Jim Beam",
+            "Time3": "4:00 p.m. CST",
+            "Date": "October 3, 2022",
+            "Location1":"Austin",
+            "Location2":"Remote",
+            "Capacity": 10
+        },
+       
+        {
+            "ConferenceTrack":"Professional Development",
+            "ConferenceSession":"Be A Winner At The Game of Life",
+            "Speaker Name":"Dr. Feelgood",
+            "Time3":"10:00 a.m. CST", 
+            "Date": "October 3, 2022",
+            "Location1": "Austin",
+            "Location2":"",
+            "Capacity": 10
+        },
+     
+        {
+            "ConferenceTrack":"Professional Development",
+            "ConferenceSession":"Be A Winner At The Game of Life",
+            "Speaker Name":"Dr. Feelgood",
+            "Time3":"1:00 p.m. CST",
+            "Date": "October 3, 2022",
+            "Location1": "Austin",
+            "Location2":"",
+            "Capacity": 10
+        },
+     
+        {
+            "ConferenceTrack":"Professional Development",
+            "ConferenceSession":"Be A Winner At The Game of Life",
+            "Speaker Name":"Dr. Feelgood",
+            "Time3":"4:00 p.m. CST",
+            "Date": "October 3, 2022",
+            "Location1": "Austin",
+            "Location2":"",
+            "Capacity": 10
+        },
+     
+        {
+            "ConferenceTrack":"Professional Development",
+            "ConferenceSession":"You're Hired! Now What?",
+            "Speaker Name":"Dr. Pepper",
+            "Time1":"9:00 a.m. CST", 
+            "Date": "October 3, 2022",
+            "Location1":"Chicago",
+            "Location2":"",
+            "Capacity": 10
+        },
+     
+        {
+            "ConferenceTrack":"Professional Development",
+            "ConferenceSession":"You're Hired! Now What?",
+            "Speaker Name":"Dr. Pepper",
+            "Time2":"11:00 p.m. CST", 
+            "Date": "October 3, 2022",
+            "Location1":"Chicago",
+            "Location2":"",
+            "Capacity": 10
+        },
+    
+        {
+            "ConferenceTrack":"Professional Development",
+            "ConferenceSession":"You're Hired! Now What?",
+            "Speaker Name":"Dr. Pepper",
+            "Time3":"4:00 p.m. CST",
+            "Date": "October 3, 2022",
+            "Location1":"Chicago",
+            "Location2":"",
+            "Capacity": 10
+        }
 ]
+    
 
 function countUp() {
     var txtInvoer = document.getElementById('addSession');
