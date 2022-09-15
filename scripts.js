@@ -3,7 +3,7 @@ const database =
          {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"Learn HTML",
-            "Speaker Name":"Prof Groot",
+            "SpeakerName":"Prof Groot",
             "Time1":"8:00 a.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Remote",
@@ -14,7 +14,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"Learn HTML",
-            "Speaker Name":"Prof Groot",
+            "SpeakerName":"Prof Groot",
             "Time2":"12:00 p.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Remote",
@@ -25,7 +25,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"Learn HTML",
-            "Speaker Name":"Prof Groot",
+            "SpeakerName":"Prof Groot",
             "Time3":"3:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Remote",
@@ -37,7 +37,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"Learn CSS",
-            "Speaker Name":"Mary Jane",
+            "SpeakerName":"Mary Jane",
             "Time1":"9:00 a.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Austin",
@@ -48,7 +48,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"Learn CSS",
-            "Speaker Name":"Mary Jane",
+            "SpeakerName":"Mary Jane",
             "Time2":"11:00 a.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Austin",
@@ -59,7 +59,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"Learn CSS",
-            "Speaker Name":"Mary Jane",
+            "SpeakerName":"Mary Jane",
             "Time3":"2:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"a",
@@ -70,7 +70,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"Learn JavaScript",
-            "Speaker Name":"Prof Smartdude",
+            "SpeakerName":"Prof Smartdude",
             "Time1":"10:00 a.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Chicago",
@@ -81,7 +81,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"Learn JavaScript",
-            "Speaker Name":"Prof Smartdude",
+            "SpeakerName":"Prof Smartdude",
             "Time2":"1:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Chicago",
@@ -92,7 +92,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"Learn JavaScript",
-            "Speaker Name":"Prof Smartdude",
+            "SpeakerName":"Prof Smartdude",
             "Time3":"4:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Chicago",
@@ -103,7 +103,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"Learn BootStrap",
-            "Speaker Name":"Prof BigBrain",
+            "SpeakerName":"Prof BigBrain",
             "Time1":"8:00 a.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Chicago",
@@ -114,7 +114,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"Learn BootStrap",
-            "Speaker Name":"Prof BigBrain",
+            "SpeakerName":"Prof BigBrain",
             "Time2":"12:00 p.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Chicago",
@@ -125,7 +125,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"Learn BootStrap",
-            "Speaker Name":"Prof BigBrain",
+            "SpeakerName":"Prof BigBrain",
             "Time3":"2:00 p.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Chicago",
@@ -136,7 +136,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"GitHub and You",
-            "Speaker Name":"Jim Beam",
+            "SpeakerName":"Jim Beam",
             "Time1":"10:00 a.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Austin",
@@ -147,7 +147,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"GitHub and You",
-            "Speaker Name":"Jim Beam",
+            "SpeakerName":"Jim Beam",
             "Time2":"1:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Austin",
@@ -158,7 +158,7 @@ const database =
         {
             "ConferenceTrack":"Web Design and Development",
             "ConferenceSession":"GitHub and You",
-            "Speaker Name":"Jim Beam",
+            "SpeakerName":"Jim Beam",
             "Time3": "4:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Austin",
@@ -169,7 +169,7 @@ const database =
         {
             "ConferenceTrack":"Professional Development",
             "ConferenceSession":"Be A Winner At The Game of Life",
-            "Speaker Name":"Dr. Feelgood",
+            "SpeakerName":"Dr. Feelgood",
             "Time3":"10:00 a.m. CST", 
             "Date": "October 3, 2022",
             "Location1": "Austin",
@@ -180,7 +180,7 @@ const database =
         {
             "ConferenceTrack":"Professional Development",
             "ConferenceSession":"Be A Winner At The Game of Life",
-            "Speaker Name":"Dr. Feelgood",
+            "SpeakerName":"Dr. Feelgood",
             "Time3":"1:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1": "Austin",
@@ -191,7 +191,7 @@ const database =
         {
             "ConferenceTrack":"Professional Development",
             "ConferenceSession":"Be A Winner At The Game of Life",
-            "Speaker Name":"Dr. Feelgood",
+            "SpeakerName":"Dr. Feelgood",
             "Time3":"4:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1": "Austin",
@@ -202,7 +202,7 @@ const database =
         {
             "ConferenceTrack":"Professional Development",
             "ConferenceSession":"You're Hired! Now What?",
-            "Speaker Name":"Dr. Pepper",
+            "SpeakerName":"Dr. Pepper",
             "Time1":"9:00 a.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Chicago",
@@ -213,7 +213,7 @@ const database =
         {
             "ConferenceTrack":"Professional Development",
             "ConferenceSession":"You're Hired! Now What?",
-            "Speaker Name":"Dr. Pepper",
+            "SpeakerName":"Dr. Pepper",
             "Time2":"11:00 p.m. CST", 
             "Date": "October 3, 2022",
             "Location1":"Chicago",
@@ -224,7 +224,7 @@ const database =
         {
             "ConferenceTrack":"Professional Development",
             "ConferenceSession":"You're Hired! Now What?",
-            "Speaker Name":"Dr. Pepper",
+            "SpeakerName":"Dr. Pepper",
             "Time3":"4:00 p.m. CST",
             "Date": "October 3, 2022",
             "Location1":"Chicago",
