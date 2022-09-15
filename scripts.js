@@ -8,7 +8,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Remote",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 001
         },
     
         {
@@ -19,7 +20,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Remote",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 002
         },
     
         {
@@ -30,7 +32,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Remote",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 003
         },
         
     
@@ -42,7 +45,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Austin",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 004
         },
     
         {
@@ -53,7 +57,9 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Austin",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 005
+
         },
     
         {
@@ -64,7 +70,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"a",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 006
         },
      
         {
@@ -75,7 +82,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 007
         },
      
         {
@@ -86,7 +94,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 010
         },
      
         {
@@ -97,7 +106,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 011
         },
     
         {
@@ -108,7 +118,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 012
         },
     
         {
@@ -119,7 +130,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 013
         },
     
         {
@@ -130,7 +142,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 014
         },
     
         {
@@ -141,7 +154,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Austin",
             "Location2":"Remote",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 015
         },
     
         {
@@ -152,7 +166,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Austin",
             "Location2":"Remote",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 016
         },
     
         {
@@ -163,7 +178,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Austin",
             "Location2":"Remote",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 017
         },
        
         {
@@ -174,7 +190,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1": "Austin",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 021
         },
      
         {
@@ -185,7 +202,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1": "Austin",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 022
         },
      
         {
@@ -196,7 +214,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1": "Austin",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 023
         },
      
         {
@@ -207,7 +226,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 024
         },
      
         {
@@ -218,7 +238,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 025
         },
     
         {
@@ -229,7 +250,8 @@ const database =
             "Date": "October 3, 2022",
             "Location1":"Chicago",
             "Location2":"",
-            "Capacity": 10
+            "Capacity": 10,
+            "CourseID": 026
         }
 ]
     
