@@ -1,7 +1,7 @@
 # Contoso Conf.
 A conference web app. 
 ## User stories
-1. As a user, I want to be able to list all the conference tracks, all the sessions and all the speakers in three different pages (displays) - feel free to user your own imagination here: either create separate pages, or create a single dynamic page with filters.
+1. As a user, I want to be able to list all the conference tracks, all the sessions and all the speakers in three different pages (displays) - feel free to use your own imagination here: either create separate pages, or create a single dynamic page with filters.
 1. As a user, I want to add a session to my schedule. Once added, the amount of seats available for that session has to decrease.
 As soon as no seats are left, the session can no longer be booked and the "Reserve seat" button is disabled.
 ## Acceptance criteria
