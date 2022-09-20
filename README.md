@@ -10,4 +10,4 @@ As soon as no seats are left, the session can no longer be booked and the "Reser
 1. Read the conference data (sessions, speakers, tracks etc.) from a JSON file.
 1. Persist attendance to sessions (per session) in local storage.
 For extra points:
-- Beucase sessions take place all around the world, list the sessions closest to my physical location.
+- Because sessions take place all around the world, list the sessions closest to my physical location.
